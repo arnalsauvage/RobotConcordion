@@ -22,12 +22,12 @@
 </p>
 <div class="example">
     <p>
-        Par exemple, si le robot est orienté nord :
+        Par exemple, si le robot est orienté <span concordion:set="#direction">nord</span> :
     <ul>
-        <li>S'il se déplace en avant, il avance d'une case vers le nord</li>
-        <li>S'il se déplace en arrière, il avance d'une case vers le sud</li>
-        <li>S'il tourne dans le sens des aiguilles d'une montre, il est orienté vers l'est</li>
-        <li>S'il tourne dans le sens inverse des aiguilles d'une montre, il est orienté vers l'ouest</li>
+        <li>S'il <span concordion:set="#mouvement">se déplace en avant</span>, <span concordion:assert-equals="resultatDeplacement(#mouvement)">il avance d'une case vers le nord</span></li>
+        <li>S'il <span concordion:set="#mouvement">se déplace en arrière</span>, <span concordion:assert-equals="resultatDeplacement(#mouvement)">il avance d'une case vers le sud</span></li>
+        <li>S'il <span concordion:set="#mouvement">tourne dans le sens des aiguilles d'une montre</span>, <span concordion:assert-equals="resultatDeplacement(#mouvement)">il est orienté vers l'est</span></li>
+        <li>S'il <span concordion:set="#mouvement">tourne dans le sens inverse des aiguilles d'une montre</span>, <span concordion:assert-equals="resultatDeplacement(#mouvement)">il est orienté vers l'ouest</span></li>
     </ul>
     </p>
 </div>
