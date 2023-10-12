@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: robot.MouvementFixture
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in robot.MouvementFixture
+robot.MouvementFixture.initializationError  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Unable to find specification: 'robot/Mouvement.html' or 'robot/Mouvement.xhtml' or 'robot/Mouvement.md' or 'robot/Mouvement.markdown'
+
